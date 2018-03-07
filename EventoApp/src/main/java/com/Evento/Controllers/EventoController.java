@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class EventoController {
 	
-	@RequestMapping("/CadastrarEvento")
+	@RequestMapping("/CadastrarPessoa")
 	public String form() 
 	{
 		return "Evento/formEvento";
